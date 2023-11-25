@@ -1,0 +1,362 @@
+/* .arena {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-column-gap: 1em;
+}
+
+/* Team */
+.team {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team#heroes {
+  justify-content: flex-end;
+}
+
+/* Player cards */
+.player {
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 1rem;
+  text-align: center;
+  width: 100px;
+}
+
+.player>img {
+  width: 100%;
+  height: auto;
+}
+
+.player>.strength {
+  font-size: 3em;
+}
+
+#score{
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+  top: 220px;
+}
+#score5{
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+  top: 220px;
+}
+#score4{
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+#score3{
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+  top: 160px;
+}
+#score2{
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+  top: 140px;
+}
+#score1{
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+
+h2,h4{
+  font-weight: lighter;
+}
+#div1{
+  display: flex;
+  
+}
+#div2{
+  display: flex;
+}
+#div3{
+  display: flex;
+}
+#div4{
+  display: flex;
+}
+#div5{
+  display: flex;
+}
+
+
+.image1{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+  
+}
+.image2{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  position: relative;
+  border-radius: 5px;
+  
+}
+.image3{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image4{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image5{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image6{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image7{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image8{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image9{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image10{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image11{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image12{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image13{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image14{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image15{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image16{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image17{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image18{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image19{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image20{
+  height: 210px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#text{
+  text-align: center;
+  border-radius: 5px;
+}
+
+#group1{
+  display: flex;
+  grid-gap: 20px;
+}
+#group2{
+  display: flex;
+  grid-gap: 19px;
+
+}
+#villans3{
+  display: flex;
+  grid-gap: 19px;
+}
+#group4{
+  display: flex;
+  grid-gap: 19px;
+}
+#group5{
+  display: flex;
+  grid-gap: 19px;
+}
+#group6{
+  display: flex;
+  grid-gap: 19px;
+ 
+}
+#group7{
+  display: flex;
+  grid-gap: 19px;
+  
+}
+#group8{
+  display: flex;
+  grid-gap: 19px;
+
+}
+
+#villans2{
+  display: flex;
+  grid-gap: 19px;
+  
+}
+#villans4{
+  display: flex;
+  grid-gap: 19px;
+  
+}
+#villans5{
+  display: flex;
+  grid-gap: 19px;
+}
+#heros{
+  display: flex;
+  grid-gap: 19px;
+}
+#villans{
+  grid-gap: 19px;
+}
+#grp{
+  grid-gap: 19px;
+}
+.body{
+  position: relative;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+}
+#img{
+  position: relative;
+  left: 450px;
+}
+
+.image4{
+  position: relative;
+  left: 17px;
+}
+#heroes{
+  position: relative;
+  right: 150px;
+  top: 30px;
+}
+#hero2{
+  position: relative;
+  right: 150px;
+  top: 60px;
+
+}
+#heros3{
+  position: relative;
+  right: 150px;
+  top: 90px;
+
+}
+#heros4{
+  position: relative;
+  right: 150px;
+  top: 120px;
+
+}
+#heros5{
+  position: relative;
+  right: 150px;
+  top: 150px;
+
+}
+#villains{
+  position: relative;
+  left: 150px;
+  top: 30px;
+
+}
+#villans2{
+  position: relative;
+  left: 150px;
+  top: 60px;
+}
+#villans3{
+  position: relative;
+  left: 150px;
+  top: 90px;
+}
+#villans4{
+  position: relative;
+  left: 150px;
+  top: 120px;
+}
+#villans5{
+  position: relative;
+  left: 150px;
+  top: 150px;
+}
+.footer{
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+
+
